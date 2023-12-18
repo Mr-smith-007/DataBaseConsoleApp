@@ -4,6 +4,6 @@ namespace ClassLibrary
 {
     public static class ConnectionString
     {
-        public static string MsSqlConnection => @"Server=.\RepnikovA\SQLEXPRESS;Database=testing;Trusted_Connection=True;";  
+        public static string MsSqlConnection => @"Server=.\SQLEXPRESS;Database=testing;Trusted_Connection=True;TrustServerCertificate=True;";  
     }
 }
